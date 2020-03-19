@@ -636,7 +636,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Features
+# ¿Quiénes somos?
 --------------------------------------------------------------*/
 .features .content + .content {
   margin-top: 100px;
@@ -659,8 +659,8 @@ section {
 
 .features .content ul i {
   font-size: 20px;
-  padding-right: 4px;
-  color: #fdc134;
+  padding-right: 6px;
+  color: #08088A;
 }
 
 .features .content p:last-child {
