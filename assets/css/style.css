@@ -1,4 +1,4 @@
-/**
+﻿/**
 * Template Name: Bocor - v2.0.0
 * Template URL: https://bootstrapmade.com/bocor-bootstrap-template-nice-animation/
 * Author: BootstrapMade.com
@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997;
   transition: all 0.5s;
   padding: 16px 0;
-  background: #213b52;
+  background: #ffffff;
 }
 
 #header .logo h1 {
@@ -90,8 +90,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #header .logo img {
   padding: 0;
-  margin: 0;
-  max-height: 40px;
+  margin-top:0;
+  max-height: 200px;
 }
 
 /*--------------------------------------------------------------
@@ -117,25 +117,26 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #adc7de;
+  color: #20284F;
   padding: 10px 15px;
   transition: 0.3s;
-  font-size: 14px;
+  font-size: 18px;
   font-family: "Open Sans", sans-serif;
+  font-weight: bold;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #fff;
+  color: #fdc134;
   text-decoration: none;
 }
 
 .nav-menu .get-started a {
-  background: #213b52;
+  background: #20284F;
   color: #fff;
   border-radius: 50px;
   margin: 2px 0 0 15px;
   padding: 4px 25px 6px 25px;
-  border: 2px solid #fdc134;
+ /* border: 2px solid #20284F;*/ 
 }
 
 .nav-menu .get-started a:hover {
@@ -348,8 +349,8 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   padding: 0 0 0 0;
-  background: #213b52;
-  background: linear-gradient(180deg, #213b52 0%, #213c54 35%, #204564 100%);
+  background: #20284F;
+  /*background: linear-gradient(180deg, #213b52 0%, #213c54 35%, #204564 100%);*/
 }
 
 #hero h1 {
