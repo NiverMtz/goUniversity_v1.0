@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #20284F;
   padding: 10px 15px;
   transition: 0.3s;
-  font-size: 18px;
+  font-size: 16px;
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
 }
@@ -388,7 +388,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
   }
   #hero .hero-img img {
-    width: 50%;
+    width: 100%;
   }
 }
 
@@ -407,13 +407,13 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 30px;
   }
   #hero .hero-img img {
-    width: 70%;
+    width: 100%;
   }
 }
 
 @media (max-width: 575px) {
   #hero .hero-img img {
-    width: 80%;
+    width: 100%;
   }
 }
 
@@ -548,7 +548,7 @@ section {
 }
 
 .about .image {
-  background: url("../img/about.jpg") center center no-repeat;
+  background: url("../img/logo_GoU-01.png") center center no-repeat;
   background-size: cover;
   min-height: 400px;
 }
@@ -656,18 +656,65 @@ section {
 
 .features .content ul li {
   padding-bottom: 10px;
+  font-size: 16px;
 }
 
 .features .content ul i {
-  font-size: 20px;
-  padding-right: 6px;
-  color: #08088A;
+  font-size: 25px;
+  padding-right: 10px;
+  margin:8px;
+  color: #223B4F;
+  vertical-align: middle;
 }
 
 .features .content p:last-child {
   margin-bottom: 0;
 }
 
+.img-features{
+  margin-top: 35%;
+}
+
+@media (max-width: 991px) {
+  .features .content h3 {
+    font-size: 22px;
+  }
+  .features .content ul li {
+    font-size: 18px;
+  }
+
+  .features .content ul i {
+    font-size: 30px;
+   }
+}
+
+@media (max-width: 768px) {
+  .features .content h3 {
+    font-size: 24px;
+    text-align: center;
+  }
+ .features .content ul li {
+    font-size: 16px;
+  }
+
+  .features .content ul i {
+    font-size: 22px;   
+  }
+}
+
+@media (max-width: 575px) {
+  .features .content h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .features .content ul li {
+    font-size: 16px;
+  }
+
+  .features .content ul i {
+    font-size: 30px;
+   }
+}
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
