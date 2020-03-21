@@ -848,7 +848,7 @@ section {
 .team .member .pic {
   margin-bottom: 15px;
   overflow: hidden;
-  min-height: 160px;
+  min-height: 180px;
 }
 
 .team .member .pic img {
