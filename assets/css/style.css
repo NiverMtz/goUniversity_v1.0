@@ -435,7 +435,7 @@ section {
 }
 
 .section-title h2 {
-  font-size: 32px;
+  font-size: 40px;
   font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -656,7 +656,7 @@ section {
 
 .features .content ul li {
   padding-bottom: 10px;
-  font-size: 16px;
+  font-size: 17px;
 }
 
 .features .content ul i {
@@ -852,7 +852,7 @@ section {
 }
 
 .team .member .pic img {
-  max-width: 100%;
+  max-width: 80%;
 }
 
 .team .member h4 {
@@ -1183,6 +1183,17 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Choose your university
+--------------------------------------------------------------*/
+.tUniversidades thead tr th{
+  vertical-align: middle;
+}
+
+.tUniversidades tbody tr td{
+  vertical-align: middle;
+}
+
+/*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 #footer {
@@ -1207,7 +1218,7 @@ section {
   position: relative;
   z-index: 2;
   text-align: center;
-  padding: 80px 0;
+  padding: 20px 0;
 }
 
 #footer .footer-top h3 {
